@@ -116,20 +116,22 @@ header{
     }
 }
 main{
+    height: 90vh;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+section{
     background-image: url("raquel-pedrotti-6dIQqmC9__g-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    width: 100%;
-    border-radius: 50px;
-}
-section{
-    height: 100vh;
+    height: 95vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: white;
-    position: relative;
+    position: relative;    
+    border-radius: 50px;
 }
 .box{
     height: 100vh;
@@ -189,14 +191,17 @@ section p{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 30px;
     }
 }
 @media (max-width:450px) {
     .search-loc,.search{
         height: 30px;
+        margin-bottom: 30px;
     }
     .search-icon{
         height: 40px;
+        margin-bottom: 30px;
     }
 }
 .weather-icon{
