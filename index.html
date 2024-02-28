@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the weather</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header>
+    <h2 style="font-weight: 700; margin-left: 40px;">Weather Forecast</h2>
+    <div class="nav-menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="">News</a>
+        <a href="">Contact</a>
+        <a href="">Offer</a>
+    </div>
+</header>
+<main>
+    <section>
+        <div class="search">
+            <input type="text" placeholder="Search Location" class="search-loc">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="box1">
+            <h1>Durgapur</h1>
+            <p>Monday, May 23 2024</p>
+            <div class="weather-condition">
+                <div>
+                    <span class="weather-icon">
+                        <i class="fa-solid fa-wind"></i>
+                    </span>
+                    Wind : 3km/h
+                </div>
+                <div>
+                    <span class="weather-icon">
+                        <i class="fa-solid fa-droplet"></i>
+                    </span>
+                    Humidity : 78%
+                </div>
+                <div>
+                    <span class="weather-icon">
+                        <i class="fa-solid fa-cloud-rain"></i>
+                    </span>
+                    Rain : 47%
+                </div>
+                <div>
+                    <span class="weather-icon">
+                        <i class="fa-solid fa-cloud"></i>
+                    </span>
+                    Visibility : 16km
+                </div>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="day">Today</div>
+            <img src="weather-icon/day/266.png" alt="" class="weather-img">
+            <span id="temp">10&deg C</span>
+            <span>10&deg C - 15&deg C</span>
+        </div>
+    </section>
+</main>
+</body>
+</html>
