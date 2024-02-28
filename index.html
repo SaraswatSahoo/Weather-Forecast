@@ -10,11 +10,20 @@
 <body>
 <header>
     <h2 style="font-weight: 700; margin-left: 40px;">Weather Forecast</h2>
+    <input type="checkbox" id="check">
+    <label class="menu" for="check"><i class="fa-solid fa-bars menu"></i></label>
     <div class="nav-menu">
         <a href="index.html" class="active">Home</a>
         <a href="">News</a>
         <a href="">Contact</a>
         <a href="">Offer</a>
+    </div>
+    <div class="sidebar">
+        <div class="sidebar-menu welcome">Welcome <label for="check"><i class="fa-solid fa-xmark "></i></label></div>
+        <div class="sidebar-menu active"><a href="index.html" class="active">Home</a></div>
+        <div class="sidebar-menu"><a href="">News</a></div>
+        <div class="sidebar-menu"><a href="">Contact</a></div>
+        <div class="sidebar-menu"><a href="">Offer</a></div>
     </div>
 </header>
 <main>
@@ -25,7 +34,8 @@
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
         </div>
-        <div class="box1">
+        <div class="box">
+            <div class="box1">
             <h1>Durgapur</h1>
             <p>Monday, May 23 2024</p>
             <div class="weather-condition">
@@ -61,6 +71,7 @@
             <span id="temp">10&deg C</span>
             <span>10&deg C - 15&deg C</span>
         </div>
+    </div>
     </section>
 </main>
 </body>
