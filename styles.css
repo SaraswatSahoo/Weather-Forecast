@@ -109,6 +109,12 @@ header{
         display: contents;
     }
 }
+@media (max-width:450px) {
+    header h2{
+        font-size: 15px;
+        font-weight: 300;
+    }
+}
 main{
     background-image: url("raquel-pedrotti-6dIQqmC9__g-unsplash.jpg");
     background-size: cover;
@@ -183,6 +189,14 @@ section p{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+}
+@media (max-width:450px) {
+    .search-loc,.search{
+        height: 30px;
+    }
+    .search-icon{
+        height: 40px;
     }
 }
 .weather-icon{
@@ -264,5 +278,49 @@ section p{
     }
     .box2{
         height: 400px;
+    }
+}
+@media (max-width: 450px) {
+    .box{
+        position: relative;
+    }
+    .box1{
+        height: 200px;
+        position: absolute;
+        top: 70px;
+    }
+    .weather-condition{
+        width: 350px;
+    }
+    .weather-condition div{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .box1 h1{
+        font-size: 40px;
+        font-weight: 500px;
+    }
+    .box2{
+        position: absolute;
+        bottom: 100px;
+        height: 250px;
+        width: 350px;
+    }
+    .day{
+        height: 30px;
+        width: 70px;
+        font-size: 12px;
+    }
+    .weather-img{
+        width: 120px;
+        height: 120px;
+    }
+    .box2 #temp{
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .box2 span{
+        font-size: 20px;
+        font-weight: 300;
     }
 }
