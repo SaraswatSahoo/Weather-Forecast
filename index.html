@@ -29,50 +29,51 @@
 <main>
     <section>
         <div class="search">
-            <input type="text" placeholder="Search Location" class="search-loc">
-            <div class="search-icon">
+            <input type="text" placeholder="Search Location" id="search-loc">
+            <button class="search-icon" onclick="getLocation()">
                 <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
+            </button>
         </div>
         <div class="box">
             <div class="box1">
-            <h1>Durgapur</h1>
-            <p>Monday, May 23 2024</p>
+            <h1 id="location">Durgapur</h1>
+            <p id="date">Monday, May 23 2024</p>
             <div class="weather-condition">
                 <div>
                     <span class="weather-icon">
                         <i class="fa-solid fa-wind"></i>
                     </span>
-                    Wind : 3km/h
+                    <span id="wind">Wind : 3km/h</span>
                 </div>
                 <div>
                     <span class="weather-icon">
                         <i class="fa-solid fa-droplet"></i>
                     </span>
-                    Humidity : 78%
+                    <span id="humidity">Humidity : 78%</span>
                 </div>
                 <div>
                     <span class="weather-icon">
                         <i class="fa-solid fa-cloud-rain"></i>
                     </span>
-                    Rain : 47%
+                    <span id="pressure">Pressure : 1.015bar</span>
                 </div>
                 <div>
                     <span class="weather-icon">
                         <i class="fa-solid fa-cloud"></i>
                     </span>
-                    Visibility : 16km
+                    <span id="visibility">Visibility : 16feet</span>
                 </div>
             </div>
         </div>
         <div class="box2">
             <div class="day">Today</div>
-            <img src="weather-icon/day/266.png" alt="" class="weather-img">
+            <img src="116.png" alt="" class="weather-img">
             <span id="temp">10&deg C</span>
-            <span>10&deg C - 15&deg C</span>
+            <span id="range">10&deg C - 15&deg C</span>
         </div>
     </div>
     </section>
 </main>
 </body>
+<script src="funtion.js"></script>
 </html>

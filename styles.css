@@ -166,7 +166,7 @@ section p{
     align-items: center;
     height: 500px;
 }
-.search-loc{
+#search-loc{
     width: 900px;
     height: 50px;
     outline: none;
@@ -186,8 +186,10 @@ section p{
     height: 50px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    font-size: 18px;
+    font-size: 20px;
     right: 620px;
+    border: none;
+    color: white;
 }
 .search{
     display: flex;
@@ -195,7 +197,7 @@ section p{
     top: 50px;
 }
 @media screen and (max-width:1070px){
-    .search-loc,
+    #search-loc,
     .search{
         width: 90%;
         display: flex;
@@ -208,7 +210,7 @@ section p{
     }
 }
 @media (max-width:450px) {
-    .search-loc,.search{
+    #search-loc,.search{
         height: 30px;
         margin-bottom: 30px;
     }
