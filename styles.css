@@ -114,6 +114,16 @@ header{
         font-size: 15px;
         font-weight: 300;
     }
+    .welcome{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .sidebar-menu{
+        font-size: 22px;
+    }
+    .sidebar{
+        width: 280px;
+    }
 }
 main{
     height: 90vh;
@@ -191,6 +201,9 @@ section p{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 30px;
+    }
+    .search-icon{
         margin-bottom: 30px;
     }
 }
@@ -295,10 +308,10 @@ section p{
         top: 70px;
     }
     .weather-condition{
-        width: 350px;
+        width: 290px;
     }
     .weather-condition div{
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 400;
     }
     .box1 h1{
@@ -309,7 +322,7 @@ section p{
         position: absolute;
         bottom: 100px;
         height: 250px;
-        width: 350px;
+        width: 290px;
     }
     .day{
         height: 30px;
