@@ -190,6 +190,8 @@ section p{
     right: 620px;
     border: none;
     color: white;
+}.search-icon:active{
+    background-color: #056cb1;
 }
 .search{
     display: flex;
